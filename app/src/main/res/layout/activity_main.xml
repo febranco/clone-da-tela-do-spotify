@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_fundo"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/spotify"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+    
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Milhões de musicas á sua escolha"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grátis no Spotify"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="5dp" />
+
+    <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Inscreva-se grátis"
+         android:textColor="@android:color/white"
+        android:background="@drawable/bg_button_inscrevase"
+         android:textStyle="bold"
+         android:textAllCaps="false"
+         android:layout_marginTop="70dp"
+         android:layout_marginStart="30dp"
+         android:layout_marginEnd="30dp"
+         android:padding="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continuar com um número de telefone"
+        android:background="@drawable/bg_button"
+        android:drawableLeft="@drawable/phone"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:drawablePadding="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inscreva-se grátis"
+        android:drawableLeft="@drawable/facebook"
+        android:background="@drawable/bg_button"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+
+
+
+</LinearLayout>
